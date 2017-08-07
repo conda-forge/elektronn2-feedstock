@@ -1,6 +1,6 @@
 {% set name = "elektronn2" %}
-{% set version = "0.3.0" %}
-{% set sha256 = "8179eff1cdd00454aa02db04f8c0a7971f65a616618257e8354bea5ad542a481" %}
+{% set version = "0.4.0" %}
+{% set sha256 = "25c8512c83b773d74e56661ef06d41c3d75eac85e9bc598882a19944fa943486" %}
 
 package:
   name: {{ name }}
