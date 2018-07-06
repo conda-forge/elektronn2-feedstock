@@ -1,14 +1,14 @@
 {% set name = "elektronn2" %}
-{% set version = "0.5.1" %}
-{% set sha256 = "8ba1e33b900106f339cfb9306eefed080eed7f74374a67118962a8cb5dc2ff48" %}
+{% set version = "0.6.0" %}
+{% set sha256 = "6777f929bdae9101abc25da9518dd47ca13edd975ae57768aa199e1a4fe8b7e0" %}
 
 package:
   name: {{ name }}
   version: {{ version }}
 
 source:
-  fn: {{ name }}-{{ version }}.tar.gz
-  url: https://pypi.org/packages/source/e/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  fn: {{ name }}-v{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/e/{{ name }}/{{ name }}-v{{ version }}.tar.gz
   sha256: {{ sha256 }}
 
 build:
@@ -36,7 +36,7 @@ requirements:
     - colorlog
     - pydotplus
     - seaborn
-    - prompt_toolkit
+    - prompt_toolkit <2
     - jedi
     - psutil
     - ipython
