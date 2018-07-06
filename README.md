@@ -14,14 +14,16 @@ Summary: A highly configurable toolkit for training 3d/2d CNNs and general Neura
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/elektronn2-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/elektronn2-feedstock)
-OSX: ![](https://cdn.rawgit.com/conda-forge/conda-smithy/90845bba35bec53edac7a16638aa4d77217a3713/conda_smithy/static/disabled.svg)
-Windows: ![](https://cdn.rawgit.com/conda-forge/conda-smithy/90845bba35bec53edac7a16638aa4d77217a3713/conda_smithy/static/disabled.svg)
+[![Linux](https://img.shields.io/circleci/project/github/conda-forge/elektronn2-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/elektronn2-feedstock)
+![OSX disabled](https://img.shields.io/badge/OSX-disabled-lightgrey.svg)
+![Windows disabled](https://img.shields.io/badge/Windows-disabled-lightgrey.svg)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/elektronn2/badges/version.svg)](https://anaconda.org/conda-forge/elektronn2)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/elektronn2/badges/downloads.svg)](https://anaconda.org/conda-forge/elektronn2)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-elektronn2-green.svg)](https://anaconda.org/conda-forge/elektronn2) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/elektronn2.svg)](https://anaconda.org/conda-forge/elektronn2) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/elektronn2.svg)](https://anaconda.org/conda-forge/elektronn2) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/elektronn2.svg)](https://anaconda.org/conda-forge/elektronn2) |
 
 Installing elektronn2
 =====================
