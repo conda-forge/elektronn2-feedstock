@@ -13,17 +13,17 @@ source:
 
 build:
   number: 1000
-  skip: True  # [not linux64 or py37]
+  skip: True  # [not linux64 or py3k]
   script: "{{ PYTHON }} -m pip install . --no-deps -vv"
 
 requirements:
   build:
-    - python
+    - python <3.7
     - pip
     - setuptools
 
   run:
-    - python
+    - python <3.7
     - theano <0.10
     - numpy
     - scipy
