@@ -12,7 +12,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 1000
+  number: 1001
   noarch: python
   script: "{{ PYTHON }} -m pip install . --no-deps -vv"
 
@@ -27,7 +27,7 @@ requirements:
     - theano <0.10
     - numpy
     - scipy
-    - matplotlib
+    - matplotlib-base
     - scikit-learn
     - scikit-image
     - h5py
