@@ -12,18 +12,18 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 1001
+  number: 1002
   noarch: python
   script: "{{ PYTHON }} -m pip install . --no-deps -vv"
 
 requirements:
-  build:
-    - python <3.7
+  host:
+    - python {{ python_min }}
     - pip
     - setuptools
 
   run:
-    - python <3.7
+    - python >={{ python_min }},<3.7
     - theano <0.10
     - numpy
     - scipy
@@ -43,6 +43,8 @@ requirements:
     - ipython
 
 test:
+  requires:
+    - python {{ python_min }}
   imports:
     - elektronn2
     - elektronn2.data
